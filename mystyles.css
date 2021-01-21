@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 /* This is a single-line comment */
 
-* {
-    background-color: hsl(0, 100%, 100%);
-}
 p.intro {
     background-color: yellow;
     color: rgb(123, 252, 3);
     
 }
 
-#firstname {
+#first {
     background-color:#6d9aa6;
     text-decoration: wavy;
     text-align: left;
