@@ -16,11 +16,31 @@
 }
 
 h2 {
+    display: inline-block;
+    position: static;
     border-style: dashed;
     border-color:blueviolet;
     border-width: 5px;
     border-radius: 5pc;
 }
+
+template > h2 {
+    display: inline-block;
+    position: static;
+    border-style: dashed;
+    border-color:blueviolet;
+    border-width: 5px;
+    border-radius: 5pc;
+}
+
+canvas + h3 {
+    background-color: palegoldenrod;
+}
+
+script ~ p {
+    background-color: yellow;
+  }
+
 p.intro {
     font-size: 30pt;
     background-color: yellow;
@@ -28,19 +48,32 @@ p.intro {
     padding: 25px 50px 75px 100px;   
 }
 
+details summary{
+    background-color: green;
+}
+
 #first {
+    display: inline;
+    position: absolute;
     background-color:#6d9aa6;
     text-decoration: wavy;
     text-align: left;
     font-family: 'Lato', sans-serif;
     margin: 25px 50px 75px 100px;
 }
+label, option {
+    text-align: center;
+    color: red;
+}
+a:active {
+    background-color: yellow;
+  }
 
 .highlight:hover {
     color: #ff0000;
   } 
 
-  div {
+  div.ex {
     background-color: lightgrey;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -51,4 +84,39 @@ p.intro {
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+  }
+
+  .flex-box {
+    display: flex;
+    background-color: olivedrab;
+  }
+
+  .flex-box > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .grids {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: olivedrab;
+    padding: 10px;
+  }
+  .item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  body {
+    background-color: beige;
+  }
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: white;
+    }
   }
