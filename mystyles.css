@@ -27,8 +27,8 @@ a.highlight:hover {
 
   div {
     background-color: lightgrey;
-    width: 3ex;
-    border: 5vw solid green;
-    padding: 10em;
+    width: 1ex;
+    border: 1vw solid green;
+    padding: 1em;
     margin: 20px;
   }
