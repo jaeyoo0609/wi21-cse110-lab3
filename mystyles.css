@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 /* This is a single-line comment */
 
+.relativeVal {
+    font-size: 0.5em;
+}
+
+.relativeVal2 {
+    font-size: 1ex;
+}
+
+.relativeVal3 {
+    font-size: 3ch;
+}
+
 h2 {
     border-style: dashed;
     border-color:blueviolet;
@@ -27,8 +39,8 @@ a.highlight:hover {
 
   div {
     background-color: lightgrey;
-    width: 1ex;
-    border: 1vw solid green;
-    padding: 1em;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
     margin: 20px;
   }
