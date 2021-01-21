@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 /* This is a single-line comment */
 
+h2 {
+    border-style: dashed;
+    border-color:blueviolet;
+    border-width: 5px;
+    border-radius: 5px;
+}
 p.intro {
     background-color: yellow;
     color: rgb(123, 252, 3);
