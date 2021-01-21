@@ -10,6 +10,8 @@
 }
 
 .relativeVal3 {
+    width: auto;
+    height: auto;
     font-size: 3ch;
 }
 
@@ -23,7 +25,7 @@ p.intro {
     font-size: 30pt;
     background-color: yellow;
     color: rgb(123, 252, 3);
-    
+    padding: 25px 50px 75px 100px;   
 }
 
 #first {
@@ -31,16 +33,22 @@ p.intro {
     text-decoration: wavy;
     text-align: left;
     font-family: 'Lato', sans-serif;
+    margin: 25px 50px 75px 100px;
 }
 
-a.highlight:hover {
+.highlight:hover {
     color: #ff0000;
   } 
 
   div {
     background-color: lightgrey;
-    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
     border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
   }
